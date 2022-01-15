@@ -362,16 +362,15 @@ body{
         
     }
   .influencer-description{
-    display: grid;
-grid-template-columns: repeat(1,1fr);
-grid-column-gap: 30px;
+    display: flex;
+    flex-direction: column;
 align-items: center;
 text-align: center;
 width: 100%;
 }
 .influencer-img{
-    width: 80%;
-    margin-top: 50px;
+    width: 100%;
+    margin-top: 80px;
 }
  
   .sections{
@@ -423,16 +422,16 @@ width: 100%;
 
     .influencer-description{
               width: 100%;
-            display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 200px;
+            display: flex;
+            flex-direction: column;
 
         align-items: center;
         text-align: center;
+        width: 100%;
     }
   .influencer-img{
-      width: 50%;
-      margin-top: 50px;
+      width: 100%;
+      margin-top: 100px;
   }
           .collections{
 display: grid;
