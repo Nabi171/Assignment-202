@@ -258,7 +258,12 @@ body{
 /***************** for the responsive ***********************/
 
 @media screen and (max-width: 480px) {
-   
+    html,body{
+        overflow-x: hidden;
+        max-width: 100%;
+        scroll-behavior: smooth;
+    }
+
     .influencer-title-section:hover img{
         transform: rotate(360deg);
         scale: 1.3em;
@@ -275,7 +280,14 @@ body{
     text-align: center;
     width: 100%;
 }
-
+.see-more-btn{
+    font-size: 25px;
+    float: right;
+    margin-right: 10%;
+    color: rgb(238, 14, 89);
+    margin-top: 4px;
+   
+}
 
 
 
@@ -312,6 +324,12 @@ body{
 
 
   @media only screen and (min-width:688px) and (max-width:992px) {
+    html,body{
+        overflow-x: hidden;
+        max-width: 100%;
+        scroll-behavior: smooth;
+    }
+
 
 
     .influencer-title-section:hover img{
@@ -321,7 +339,14 @@ body{
         
     }
 
-
+    .see-more-btn{
+        font-size: 25px;
+        float: right;
+        margin-right: 10%;
+        color: rgb(238, 14, 89);
+        margin-top: 4px;
+       
+    }
 
     .influencer-description{
         width: 100%;
@@ -369,7 +394,14 @@ body{
         max-width: 100%;
         scroll-behavior: smooth;
     }
-
+    .see-more-btn{
+        font-size: 25px;
+        float: right;
+        margin-right: 10%;
+        color: rgb(238, 14, 89);
+        margin-top: 4px;
+       
+    }
     .influencer-title-section:hover img{
         transform: rotate(360deg);
         scale: 1.3em;
@@ -429,6 +461,12 @@ padding: 5%;
       /*Small smartphones */
   
   @media only screen and (max-width: 425px){
+    html,body{
+        overflow-x: hidden;
+        max-width: 100%;
+        scroll-behavior: smooth;
+    }
+
           
     .influencer-title-section:hover img{
         transform: rotate(360deg);
@@ -436,6 +474,16 @@ padding: 5%;
         transition: 2s linear;
         
     }
+
+    .see-more-btn{
+        font-size: 25px;
+        float: right;
+        margin-right: 10%;
+        color: rgb(238, 14, 89);
+        margin-top: 4px;
+       
+    }
+
 
     .influencer-description{
               width: 100%;
